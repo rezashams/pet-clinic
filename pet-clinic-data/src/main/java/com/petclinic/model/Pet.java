@@ -2,18 +2,18 @@ package com.petclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity {
 
-    private PetType oetType;
+    private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
 
-    public PetType getOetType() {
-        return oetType;
+    public PetType getPetType() {
+        return petType;
     }
 
-    public void setOetType(PetType oetType) {
-        this.oetType = oetType;
+    public void setPetType(PetType petType) {
+        this.petType = petType;
     }
 
     public Owner getOwner() {
