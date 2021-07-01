@@ -3,7 +3,7 @@
  * Author:  Reza Shams (rezashams86@gmail.com)
  */
 
-package com.petclinic.controller;
+package com.petclinic.controllers;
 
 import com.petclinic.model.Owner;
 import com.petclinic.services.OwnerService;

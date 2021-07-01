@@ -1,4 +1,4 @@
-package com.petclinic.controller;
+package com.petclinic.controllers;
 
 import com.petclinic.model.Owner;
 import com.petclinic.services.OwnerService;

@@ -1,4 +1,4 @@
-package com.petclinic.controller;
+package com.petclinic.controllers;
 
 import com.petclinic.services.VetService;
 import org.springframework.stereotype.Controller;
