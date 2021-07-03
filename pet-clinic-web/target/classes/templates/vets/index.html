@@ -18,8 +18,13 @@
     <tbody>
     <tr th:each="vet : ${vets}">
         <td th:text="${vet.firstName + ' ' + vet.lastName}"></td>
+        <td><span th:each="specialty : ${vet.specialities}"
+                  th:text="${specialty.description + ' '}" /> <span
+                th:if="${vet?.specialities?.size() == 0}">none</span></td>
     </tr>
     </tbody>
 </table>
 </body>
 </html>
+
+© 2021 GitHub, Inc.
